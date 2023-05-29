@@ -1,0 +1,124 @@
+@import "../base/base.css";
+@import "../base/layout.css";
+@import "../vendor/font-awesome.min.css";
+@import "../vendor/roboto.css";
+@import "../components/button.css";
+@import "../components/clock.css";
+@import "../components/progress-bar.css";
+.hero {
+min-height: 100vh;
+background-image: url(../../img/background.png);
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: cover;
+background-attachment: fixed;
+}
+.hero > .row-short {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo {
+width: 100%;
+height: 50px;
+object-fit: contain;
+}
+.main-title {
+font-family: roboto;
+font-weight: bold;
+font-size: 70px;
+letter-spacing: -5px;
+text-align: center;
+text-transform: uppercase;
+}
+.main-description {
+text-align: center;
+font-size: 20px;
+}
+footer.container {
+padding-top: 0px;
+}
+.socials {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 0.5em 0px;
+font-size: 20px;
+gap: 0.5em;
+border-bottom: 1px solid #fff;
+}
+.socials > a {
+height: 2.4em;
+width: 2.4em;
+line-height: 2.4em;
+text-align: center;
+color: #fff;
+text-decoration: none;
+border-radius: 50%;
+transition: all 0.3s;
+}
+.socials > a:hover {
+background-color: #fff;
+color: var(--main-color);
+text-decoration: none;
+}
+.column-title {
+font-size: 20px;
+text-transform: uppercase;
+}
+.column-description {
+font-size: 17px;
+line-height: 1.7em;
+color: #777;
+}
+.column-description > a {
+color: var(--secondary-color);
+text-decoration: none;
+}
+.column-description > a:hover {
+text-decoration: underline;
+}
+footer > .row {
+    border-bottom: 1px solid #fff;
+}
+footer .logo {
+margin: 40px 0px;
+}
+.text-trio {
+text-align: center;
+color: rgba(255,255,255,0.6);
+}
+.text-trio > span {
+    
+}
+.text-trio > span > a {
+    
+}
+.text-trio > .line {
+display: inline-block;
+background-color: #fff;
+width: 2px;
+height: 12px;
+margin: 0px 10px;
+}
+.footer-bottom {
+text-align: center;
+color: rgba(255,255,255,0.6);
+}
+footer a {
+color: #fff;
+text-decoration: none;
+}
+footer a:hover {
+text-decoration: underline;
+}
+@media (max-width: 700px) {
+.text-trio > span {
+display: block;
+}
+}
+@media (max-width: 700px) {
+.text-trio > .line {
+display: none;
+}
+}

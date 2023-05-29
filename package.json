@@ -1,0 +1,12 @@
+{
+  "name": "projektas5",
+  "version": "1.0.0",
+  "description": "VaidasDbr",
+  "main": "index.js",
+  "scripts": {
+    "server": "dead-server --host=localhost --port=55555"
+  },
+  "keywords": [],
+  "author": "VaidasDbr",
+  "license": "MIT"
+}
